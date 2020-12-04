@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>room_segmenter</name>
+  <version>0.0.0</version>
+  <description>A room segmentation algorithm written in C++ for ROS based on raycasting discontinuities.</description>
+
+  <maintainer email="murtagan@tcd.ie">Andrew Murtagh</maintainer>
+
+
+  <license>MIT</license>
+
+
+  <url type="repository">https://github.com/AndrewMurtagh/room_segmenter</url>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <exec_depend>roscpp</exec_depend>
+
+</package>
